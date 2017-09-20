@@ -1,17 +1,17 @@
-Create a list, , of  empty sequences, where each sequence is indexed from  to . The elements within each of the  sequences also use -indexing.
-Create an integer, , and initialize it to .
-The  types of queries that can be performed on your list of sequences () are described below:
+Create a list, seqList, of  N empty sequences, where each sequence is indexed from 0 to N-1. The elements within each of the N sequences also use 0-indexing.
+Create an integer, lastAnswer, and initialize it to 0.
+The  types of queries that can be performed on your list of sequences (seqList) are described below:
 Query: 1 x y
-Find the sequence, , at index  in .
+Find the sequence, seq, at index ((x XOR lastAnswer) % N) in .
 Append integer  to sequence .
 Query: 2 x y
-Find the sequence, , at index  in .
+Find the sequence, seq, at index ((x XOR lastAnswer) % N) in .
 Find the value of element  in  (where  is the size of ) and assign it to .
-Print the new value of  on a new line
+Print the new value of lastAnswer on a new line
 Task 
-Given , , and  queries, execute each query.
 
-Note:  is the bitwise XOR operation, which corresponds to the ^ operator in most languages. Learn more about it on Wikipedia.
+
+Note: the bitwise XOR operation, which corresponds to the ^ operator in most languages. Learn more about it on Wikipedia.
 
 Input Format
 
