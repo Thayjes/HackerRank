@@ -22,7 +22,7 @@ Sample Output
 void levelOrder(Node * root){
       //Write your code here
         Node *temp;
-        queue<Node*> q;   
+        queue<Node*> q;   //Important takeaway, we can use queues, stacks, vectors etc to store pointer types as well. 
         temp = root;
         while(temp){
             cout << temp->data << " ";
