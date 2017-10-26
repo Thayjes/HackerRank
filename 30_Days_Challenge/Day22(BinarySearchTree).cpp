@@ -1,4 +1,4 @@
-*/
+/*
 Calculate the height of a Binary Search Tree. Height is defined as the largest number of edges between the root of the tree and 
 the furthest leaf of the tree.
 Sample Input
